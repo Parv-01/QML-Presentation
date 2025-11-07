@@ -11,7 +11,7 @@
         '@': path.resolve(__dirname, './src'),
       },
     },
-    base: process.env.NODE_ENV === 'production' ? '/quantum-entangled-path-presentation/' : '/',
+    base: process.env.NODE_ENV === 'production' ? '/QML-Presentation/' : '/',
     build: {
       target: 'esnext',
       outDir: 'build',
