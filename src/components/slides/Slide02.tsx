@@ -4,6 +4,8 @@ import { GlassCard } from '../GlassCard';
 import { ImagePlaceholder } from '../ImagePlaceholder';
 
 import { FloatingOrb } from '../animations/FloatingOrb';
+import sl21Image from '../../img/sl21.jpg';
+import sl22Image from '../../img/sl22.jpg';
 
 export function Slide02() {
   const [hoveredSide, setHoveredSide] = React.useState<'classical' | 'quantum' | null>(null);
@@ -120,9 +122,7 @@ export function Slide02() {
             </motion.div>
           </motion.div>
         </div>
-      </div>
-
-
+       </div>
     </div>
   );
 }
