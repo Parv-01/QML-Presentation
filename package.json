@@ -1,9 +1,9 @@
 
-  {
-      "name": "Quantum Entangled Path Presentation",
-      "author": "Parv Agarwal",
-      "version": "0.1.0",
-      "private": true,
+{
+  "name": "Quantum Entangled Path Presentation",
+  "author": "Parv Agarwal",
+  "version": "0.1.0",
+  "private": true,
       "dependencies": {
           "@radix-ui/react-accordion": "^1.2.3",
           "@radix-ui/react-alert-dialog": "^1.1.6",
@@ -58,7 +58,7 @@
       "scripts": {
           "dev": "vite",
           "build": "vite build",
-          "build:github": "vite build --base=/quantum-entangled-path-presentation/",
+          "build:github": "vite build --base=/QML-Presentation/",
           "preview": "vite preview",
           "deploy:vercel": "vercel --prod",
           "deploy:github": "npm run build:github && gh-pages -d build"
