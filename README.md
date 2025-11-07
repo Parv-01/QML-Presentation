@@ -1,8 +1,7 @@
 
 # Quantum Entangled Path Presentation
 
-This is a code bundle for Quantum Entangled Path Presentation. The original project is available at https://www.figma.com/design/pZp04pcYWXicJDvovw8Oxa/Quantum-Entangled-Path-Presentation.
-
+This is a code bundle for Quantum Entangled Path Presentation.
 ## Running the code
 
 Run `npm i` to install the dependencies.
