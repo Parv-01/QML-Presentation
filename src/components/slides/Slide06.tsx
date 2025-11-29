@@ -43,15 +43,38 @@ export function Slide06() {
               }}
               transition={{ duration: 0.3 }}
             >
-              <p className="text-purple-100/80 leading-relaxed mb-6">
-                Quantum Machine Learning (QML) combines quantum computing's parallelism with
-                machine learning's pattern recognition. It promises exponential speedups for
-                optimization, classification, and generative tasks.
-              </p>
-              <p className="text-purple-100/80 leading-relaxed">
-                By encoding data into quantum states, QML algorithms can explore vast solution
-                spaces simultaneously, revolutionizing how we approach AI challenges.
-              </p>
+                 <p className="text-purple-100/80 leading-relaxed mb-6">
+                     Quantum Machine Learning (QML) blends quantum computing’s ability to process multiple
+                     states simultaneously with machine learning’s strength in recognizing patterns. A single
+                     qubit can exist in a superposition state written as <strong>|ψ⟩ = α|0⟩ + β|1⟩</strong>, allowing QML models to
+                     analyze many possibilities at once. This fusion enables exponential improvements in
+                     optimization, classification, and generative modeling tasks.
+                 </p>
+
+                 <p className="text-purple-100/80 leading-relaxed mb-6">
+                     By encoding classical data into quantum states through feature maps such as
+                     <strong> φ(x) → |φ(x)⟩</strong>, QML algorithms operate inside exponentially large Hilbert spaces. A system
+                     with <strong>n</strong> qubits spans <strong>2ⁿ</strong> basis states, giving QML the power to explore huge solution
+                     spaces in parallel. Interference—captured mathematically as the sum of amplitudes—helps
+                     reinforce correct answers and cancel out wrong ones.
+                 </p>
+
+                 <p className="text-purple-100/80 leading-relaxed mb-6">
+                     This mathematical structure allows QML to uncover relationships and patterns that
+                     classical systems may never reach. Quantum kernels compute similarity using inner products
+                     like <strong> K(x, y) = |⟨φ(x)|φ(y)⟩|²</strong>, enabling richer learning. From financial modeling to molecular
+                     simulation and neural pattern discovery, QML opens doors to new forms of intelligence
+                     driven by quantum probability and high-dimensional computation.
+                 </p>
+                 <p className="text-purple-100/80 leading-relaxed mb-6">
+                     Ultimately, the strength of QML lies in its ability to harness quantum operations—unitaries,
+                     entanglement, and measurement—to create learning systems that evolve in complex spaces.
+                     A variational quantum model updates parameters θ by minimizing a cost function such as
+                     <strong> C(θ) = ⟨ψ(θ)| H |ψ(θ)⟩</strong>, where <em>H</em> encodes the task objective. These hybrid quantum-classical
+                     loops transform noisy, near-term quantum devices into powerful learners capable of
+                     capturing nonlinear structures far beyond classical limits.
+                 </p>
+
              </motion.div>
 
              <div className="grid grid-cols-2 gap-6">
